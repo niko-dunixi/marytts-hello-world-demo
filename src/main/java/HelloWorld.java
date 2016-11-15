@@ -1,14 +1,12 @@
 import marytts.LocalMaryInterface;
 import marytts.exceptions.MaryConfigurationException;
 import marytts.exceptions.SynthesisException;
-import marytts.signalproc.effects.*;
 import marytts.util.data.audio.AudioPlayer;
 
-import javax.sound.sampled.*;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.LineUnavailableException;
 import java.io.Closeable;
 import java.io.IOException;
-
-//import marytts.client.RemoteMaryInterface;
 
 /**
  * Created by paulbaker on 11/15/16.
